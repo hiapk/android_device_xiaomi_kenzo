@@ -63,4 +63,16 @@
     </ResolutionOverrideApps>
     <GameTriggerApps>
     </GameTriggerApps>
+
+    <GameColocateApps>
+    <!-- Only PackageName supported, ActivityName and VersionCode will be ignored.
+     -->
+
+    <!-- Riptide game whitelisted for sched colocation.
+     -->
+        <AppAttributes
+            PackageName="com.vectorunit.redcmgeplaycn" />
+        <AppAttributes
+            PackageName="com.vectorunit.red" />
+    </GameColocateApps>
 </AppCatalog>
